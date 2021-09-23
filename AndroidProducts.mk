@@ -21,3 +21,4 @@ COMMON_LUNCH_CHOICES := \
     lineage_dumpling-user \
     lineage_dumpling-userdebug \
     lineage_dumpling-eng
+
