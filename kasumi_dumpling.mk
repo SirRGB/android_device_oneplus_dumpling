@@ -45,3 +45,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 BUILD_FINGERPRINT := OnePlus/OnePlus5T/OnePlus5T:10/QKQ1.191014.012/2010292059:user/release-keys
 
 TARGET_VENDOR := oneplus
+
+
+# Kasumi specific variables
+# Face Unlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
