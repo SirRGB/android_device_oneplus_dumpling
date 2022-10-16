@@ -24,11 +24,17 @@ $(call inherit-product, device/oneplus/dumpling/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Bootanimation
+TARGET_BOOT_ANIMATION_RES := 1080
+
 PRODUCT_NAME := lineage_dumpling
 PRODUCT_DEVICE := dumpling
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
 PRODUCT_MODEL := ONEPLUS A5010
+
+# Lawnchair
+LAWNCHAIR_OPTOUT := false
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
