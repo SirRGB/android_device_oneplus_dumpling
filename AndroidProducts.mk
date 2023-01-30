@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_dumpling.mk
+    $(LOCAL_DIR)/superior_dumpling.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_dumpling-user \
-    lineage_dumpling-userdebug \
-    lineage_dumpling-eng
+    superior_dumpling-user \
+    superior_dumpling-userdebug \
+    superior_dumpling-eng
