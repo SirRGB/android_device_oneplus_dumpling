@@ -22,12 +22,16 @@ PRODUCT_MODEL := ONEPLUS A5010
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
+PRODUCT_SYSTEM_DEVICE := OnePlus5T
+PRODUCT_SYSTEM_NAME := OnePlus5T
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="OnePlus5T-user 10 QKQ1.191014.012 2010292059 release-keys" \
-    BuildFingerprint=OnePlus/OnePlus5T/OnePlus5T:10/QKQ1.191014.012/2010292059:user/release-keys \
-    DeviceName=OnePlus5T \
-    DeviceProduct=OnePlus5T \
-    SystemDevice=OnePlus5T \
-    SystemName=OnePlus5T
+    TARGET_DEVICE=OnePlus5T \
+    TARGET_PRODUCT=OnePlus5T
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRIVATE_BUILD_DESC="OnePlus5T-user 10 QKQ1.191014.012 2010292059 release-keys"
+
+BUILD_FINGERPRINT := OnePlus/OnePlus5T/OnePlus5T:10/QKQ1.191014.012/2010292059:user/release-keys
 
 TARGET_VENDOR := oneplus
